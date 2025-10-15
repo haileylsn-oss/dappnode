@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2 bg-red-800 px-3 py-2 rounded-lg">
                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                <span className="text-sm">Etherium</span>
+                <span className="text-sm">Ethereum</span>
               </div>
               <Link to="/wallet"> <button className="bg-black hover:bg-gray-700 px-6 py-2 rounded-lg transition-colors duration-200 font-medium">
                 Connect
