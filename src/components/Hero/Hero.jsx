@@ -25,7 +25,7 @@ const Hero = () => {
             </div>
 
             {/* Right side - Network & Connect */}
-            <div className="flex items-center space-x-4">
+          <Link to={'/wallet'}> <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2 bg-red-800 px-3 py-2 rounded-lg">
                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
                 <span className="text-sm">Ethereum</span>
@@ -35,7 +35,7 @@ const Hero = () => {
               </button>
               </Link>
              
-            </div>
+            </div></Link> 
           </div>
         </div>
       </header>

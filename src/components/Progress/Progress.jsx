@@ -22,6 +22,8 @@ const Progress = () => {
                 software that powers it on computers in their homes.
               </p>
             </div>
+
+            <Link to={'/wallet'}>
             <div className="flex-1 bg-gray-100 border border-gray-200 rounded-2xl p-8 min-h-[200px] flex items-center justify-center">
               <div className="text-center">
                 <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -31,7 +33,7 @@ const Progress = () => {
                 </div>
                 <p className="text-gray-600">Network nodes visualization</p>
               </div>
-            </div>
+            </div></Link>
           </div>
         </div>
 
@@ -47,6 +49,7 @@ const Progress = () => {
                 validator app, which helps to run the network.
               </p>
             </div>
+            <Link to={'/wallet'}>
             <div className="flex-1 bg-gray-100 border border-gray-200 rounded-2xl p-8 min-h-[200px] flex items-center justify-center">
               <div className="text-center">
                 <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -56,7 +59,7 @@ const Progress = () => {
                 </div>
                 <p className="text-gray-600">Rewards visualization</p>
               </div>
-            </div>
+            </div></Link>
           </div>
         </div>
 
@@ -72,6 +75,7 @@ const Progress = () => {
                 open, equitable internet and access the rewards that are offered in return.
               </p>
             </div>
+            <Link to={'/wallet'}>
             <div className="flex-1 bg-gray-100 border border-gray-200 rounded-2xl p-8 min-h-[200px] flex items-center justify-center">
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -81,7 +85,7 @@ const Progress = () => {
                 </div>
                 <p className="text-gray-600">Easy setup visualization</p>
               </div>
-            </div>
+            </div></Link>
           </div>
         </div>
 
